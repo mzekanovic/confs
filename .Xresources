@@ -1,0 +1,61 @@
+!Tango colors
+! Black + DarkGrey
+URxvt*color0:                 #2E3436
+URxvt*color8:                 #555753
+! DarkRed + Red
+URxvt*color1:                 #CC0000
+URxvt*color9:                 #EF2929
+! DarkGreen + Green
+URxvt*color2:                 #4E9A06
+URxvt*color10:                #8AE234
+! DarkYellow + Yellow
+URxvt*color3:                 #C4A000
+URxvt*color11:                #FCE94F
+! DarkBlue + Blue
+URxvt*color4:                 #3465A4
+URxvt*color12:                #729FCF
+! DarkMangenta + Mangenta
+URxvt*color5:                 #75507B
+URxvt*color13:                #AD7FA8
+!DarkCyan + Cyan
+URxvt*color6:                 #06989A
+URxvt*color14:                #34E2E2
+! LightGrey + White
+URxvt*color7:                 #D3D7CF
+URxvt*color15:                #EEEEEC
+
+!URxvt settings
+URxvt*geometry: 80x24
+URxvt*foreground:   #EFEFEF
+URxvt*background:   #000000
+URxvt*cursorColor: yellow
+URxvt*font: -xos4-terminus-*-*-*-*-18-*-*-*-*-*-*-*,xft:monospace:antialias=false:size=16
+URxvt.perl-ext-common: default,matcher,tabbed,keyboard-select,url-select,clipboard	
+URxvt.url-launcher: /usr/bin/google-chrome-stable
+
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline fg6
+
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-u: perl:url-select:select_next
+
+!URxvt.clipboard.copycmd:  xsel -ib
+!URxvt.clipboard.pastecmd: xsel -ob
+
+URxvt.tabbed.tabbar-fg: 3 
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 1
+
+URxvt*cutchars: "()*,<>[]{}|'`"
+URxvt*internalBorder: 0
+URxvt*borderWidth: 0
+URxvt*scrollBar: false
+URxvt*loginShell: true
+URxvt*saveLines: 50000
+URxvt*termName: rxvt
+ 
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
